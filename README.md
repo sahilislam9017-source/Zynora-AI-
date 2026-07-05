@@ -1,4 +1,4 @@
-ab# # Zynora-AI# Zynora-AI
+# Zynora-AI
 
 Welcome to the official Zynora-AI repository.
 
