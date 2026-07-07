@@ -1,1 +1,114 @@
-body{font-family:Arial,sans-serif;text-align:center;padding:40px;background:#111;color:#fff}h1{color:#5cf}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#0d1117;
+  color:white;
+}
+
+header{
+  position:fixed;
+  width:100%;
+  background:#161b22;
+  padding:15px 10%;
+  top:0;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav h2{
+  color:#00bfff;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+}
+
+nav ul li{
+  margin-left:20px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+}
+
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.hero h1{
+  font-size:50px;
+  color:#00bfff;
+}
+
+.hero p{
+  margin:20px 0;
+  font-size:20px;
+}
+
+.btn{
+  background:#00bfff;
+  color:white;
+  padding:12px 25px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+section{
+  padding:100px 10%;
+}
+
+.card{
+  background:#161b22;
+  padding:20px;
+  margin:20px 0;
+  border-radius:12px;
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+}
+
+input,textarea{
+  margin:10px 0;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+}
+
+button{
+  padding:12px;
+  background:#00bfff;
+  color:white;
+  border:none;
+  border-radius:8px;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#161b22;
+}
