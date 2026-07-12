@@ -8,7 +8,7 @@ Zynora-AI is an AI-powered technology project focused on building smart AI solut
 
 ## Website
 
-https://zynora-ai.github.io/Zynora-AI/
+https://sahilislam9017-source.github.io/Zynora-AI/
 
 ## License
 
