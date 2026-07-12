@@ -6,10 +6,8 @@ Welcome to the official Zynora-AI repository.
 
 Zynora-AI is an AI-powered technology project focused on building smart AI solutions.
 
-## Website
-
+## Website 
 https://sahilislam9017-source.github.io/Zynora-AI/
-
 ## License
 
 MIT License
