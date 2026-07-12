@@ -112,3 +112,15 @@ footer{
   padding:20px;
   background:#161b22;
 }
+.chat-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #00bfff;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 999;
+}
