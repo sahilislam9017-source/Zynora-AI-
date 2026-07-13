@@ -1,139 +1,129 @@
+/* ===== Zynora AI Premium CSS ===== */
+
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
-  font-family:Arial,sans-serif;
-  background:#0d1117;
-  color:white;
+    font-family:Arial, sans-serif;
+    background:#0d1117;
+    color:#fff;
+    line-height:1.6;
 }
 
 header{
-  position:fixed;
-  width:100%;
-  background:#161b22;
-  padding:15px 10%;
-  top:0;
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#161b22;
+    padding:15px 30px;
+    z-index:1000;
 }
 
-nav{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
-nav h2{
-  color:#00bfff;
+.navbar h2{
+    color:#00bfff;
 }
 
-nav ul{
-  display:flex;
-  list-style:none;
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
 }
 
-nav ul li{
-  margin-left:20px;
-}
-
-nav a{
-  color:white;
-  text-decoration:none;
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
 }
 
 .hero{
-  height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  padding:20px;
+    text-align:center;
+    padding:140px 20px 80px;
 }
 
 .hero h1{
-  font-size:50px;
-  color:#00bfff;
+    font-size:48px;
+    color:#00bfff;
 }
 
 .hero p{
-  margin:20px 0;
-  font-size:20px;
+    font-size:20px;
+    margin:20px 0;
 }
 
-.btn{
-  background:#00bfff;
-  color:white;
-  padding:12px 25px;
-  border-radius:8px;
-  text-decoration:none;
-}
-
-section{
-  padding:100px 10%;
-}
-
-.card{
-  background:#161b22;
-  padding:20px;
-  margin:20px 0;
-  border-radius:12px;
-  transition:.3s;
-}
-
-.card:hover{
-  transform:translateY(-8px);
-}
-
-form{
-  display:flex;
-  flex-direction:column;
-}
-
-input,textarea{
-  margin:10px 0;
-  padding:12px;
-  border:none;
-  border-radius:8px;
-}
-
-button{
-  padding:12px;
-  background:#00bfff;
-  color:white;
-  border:none;
-  border-radius:8px;
-}
-
-footer{
-  text-align:center;
-  padding:20px;
-  background:#161b22;
-}
-.chat-btn{
-    position: fixed;
-    bottom: 20px;
-  .hero-image{
-    width:250px;
-    max-width:90%;
+.hero-image{
+    width:220px;
+    max-width:80%;
     display:block;
     margin:20px auto;
     border-radius:20px;
-  }
-    right: 20px;
-    background: #00bfff;
-    color: white;
-    padding: 14px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    z-index: 999;
-}.hero-image{
-    width: 220px;
-    max-width: 80%;
-    display: block;
-    margin: 20px auto;
-    border-radius: 20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#00bfff;
+    color:white;
+    padding:14px 28px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}section{
+    padding:80px 20px;
+    text-align:center;
+}
+
+h2{
+    color:#00bfff;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#161b22;
+    padding:20px;
+    margin:20px auto;
+    max-width:320px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 30px rgba(0,191,255,0.4);
+}
+
+input,textarea{
+    width:90%;
+    max-width:500px;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+}
+
+.chat-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#00bfff;
+    color:#fff;
+    padding:14px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    z-index:999;
+}
+
+footer{
+    background:#161b22;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
 }
