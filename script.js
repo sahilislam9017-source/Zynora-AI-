@@ -21,16 +21,24 @@ chatToggle.addEventListener("click", () => {
     chatBox.style.display = "none";
   }
 });
-
-function sendMessage() {
+async function sendMessage() {
   const input = document.getElementById("userInput");
   const messages = document.getElementById("messages");
 
   if (input.value.trim() === "") return;
 
-  messages.innerHTML += `<p><b>You:</b> ${input.value}</p>`;
-  messages.innerHTML += `<p><b>Zynora AI:</b> Hello! I'm your AI assistant. Real AI responses will be available after API integration.</p>`;
+  const userMessage = input.value;
 
+  messages.innerHTML += `<p><b>You:</b> ${userMessage}</p>`;
   input.value = "";
+
+  messages.innerHTML += `<p id="typing"><b>Zynora AI:</b> Typing...</p>`;
   messages.scrollTop = messages.scrollHeight;
+
+  setTimeout(() => {
+    document.getElementById("typing").remove();
+
+    messages.innerHTML += `<p><b>Zynora AI:</b> This website is now ready for real AI integration.</p>`;
+    messages.scrollTop = messages.scrollHeight;
+  }, 1500);
 }
