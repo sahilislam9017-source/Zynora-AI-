@@ -29,7 +29,7 @@ function sendMessage() {
   if (input.value.trim() === "") return;
 
   messages.innerHTML += `<p><b>You:</b> ${input.value}</p>`;
-  messages.innerHTML += `<p><b>Zynora AI:</b> This is a demo AI response.</p>`;
+  messages.innerHTML += `<p><b>Zynora AI:</b> Hello! I'm your AI assistant. Real AI responses will be available after API integration.</p>`;
 
   input.value = "";
   messages.scrollTop = messages.scrollHeight;
