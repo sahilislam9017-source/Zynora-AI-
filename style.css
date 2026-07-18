@@ -157,3 +157,15 @@ footer{
 .hero .btn:hover{
     background:#0099cc;
 }
+.hero h1{
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow:0 0 10px #00bfff;
+    }
+    to{
+        text-shadow:0 0 25px #00bfff,0 0 50px #00bfff;
+    }
+}
